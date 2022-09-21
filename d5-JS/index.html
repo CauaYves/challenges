@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidas</title>
+    <script src="library.js"></script>
+    <style>
+        html{
+            font: normal 12pt arial;
+        }
+        h1{
+            margin-bottom: 10px;
+        }
+        a{
+            text-decoration: none;
+            display: inline-block;
+        }
+        div#botao{
+            border: 1px solid black;
+            padding: 20px;
+            color: black;
+            margin-bottom: 20px;
+        }
+        div#botao:hover{
+            background-color: rgb(184, 184, 184);
+        }
+    </style>
+</head>
+<body>
+    <h1>conversor de medidas</h1>
+    <a href="#" onclick="conversorDeMedidas()">
+        <div id="botao">Converter</div>
+    </a>
+    <div id="text"></div>
+        <div id="container-medidas"></div>
+    
+</body>
+</html>
